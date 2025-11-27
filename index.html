@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinematic AI | เรียนรู้การสร้างสรรค์ภาพยนตร์ด้วยปัญญาประดิษฐ์</title>
+    <meta name="description" content="คอร์สเรียน Cinematic AI ที่จะพาคุณไปสู่โลกแห่งการสร้างภาพยนตร์ด้วยเทคโนโลยี AI ล้ำสมัย ตั้งแต่การเขียนบท การสร้างภาพ ไปจนถึง Post-Production สมัครเลย!" />
+    <meta name="keywords" content="AI, ภาพยนตร์, cinematic, ปัญญาประดิษฐ์, filmmaking, course, เรียน AI, AI for film, Generative AI" />
+    <meta name="author" content="Cinematic AI" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      @keyframes pan {
+        0% { transform: scale(1.1) translate(0, 0); }
+        50% { transform: scale(1.15) translate(5px, -5px); }
+        100% { transform: scale(1.1) translate(0, 0); }
+      }
+      .animate-pan {
+        animation: pan 25s ease-in-out infinite alternate;
+      }
+      .font-orbitron {
+        font-family: 'Orbitron', sans-serif;
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.1",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "contentful": "https://aistudiocdn.com/contentful@^11.7.19",
+    "vite": "https://aistudiocdn.com/vite@^7.1.7",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.0.3"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
